@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use App::which_package;
+
+# ABSTRACT: Determine which package installed a file
+# VERSION
+
+exit App::which_package->main(@ARGV);
