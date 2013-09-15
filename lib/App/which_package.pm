@@ -54,16 +54,11 @@ sub main
   
   foreach my $file (sort keys %owners)
   {
-  
     foreach my $package (sort { $a->{Package} cmp $b->{Package} } @{ $owners{$file} })
     {
-      foreach my $name (split /\s*,\s*/, $package->{Package})
-      {
-        $table->add($file, $name, $package->{PkgType});
-        $count++;
-      }
+      $table->add($file, $package->{Package}, $package->{PkgType});
+      $count++;
     }
-  
   }
   
   if($count > 0)

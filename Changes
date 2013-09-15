@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - fix Debian package name split on , in Alien::Packages
+    instead of here
 
 0.01      2013-09-13 09:28:47 -0400
   - initial version
