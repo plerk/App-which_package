@@ -10,25 +10,6 @@ use File::Which qw( which );
 # ABSTRACT: Determine which package installed a file
 # VERSION
 
-=head1 SYNOPSIS
-
- % which_package /path/to/file [ ... ]
-
-=head1 DESCRIPTION
-
-Print out package information for packages that own a given file.
-
-For each file on the command line this program will print out the
-package name and type of package.  It uses L<Alien::Packages> to
-do this portably, so it should work, with various limitations, 
-portably on a wide variety of platforms.
-
-=head1 OPTIONS
-
-none, as yet.
-
-=cut
-
 my $ap = Alien::Packages->new;
 
 sub main

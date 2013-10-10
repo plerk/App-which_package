@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - documentation
 
 0.04      2013-10-10 13:04:06 -0400
   - require Alien::Packages::Cygwin on cygwin
