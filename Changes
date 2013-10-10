@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.04      2013-10-10 13:04:06 -0400
+  - require Alien::Packages::Cygwin on cygwin
+
 0.03      2013-09-24 08:35:38 -0400
   - require Path::Class 0.26 for spew()
 
