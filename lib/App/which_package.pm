@@ -10,6 +10,17 @@ use File::Which qw( which );
 # ABSTRACT: Determine which package installed a file
 # VERSION
 
+=head1 DESCRIPTION
+
+This module contains the machinery for the command line script
+L<which_package>.
+
+=head1 SEE ALSO
+
+L<which_package>
+
+=cut
+
 my $ap = Alien::Packages->new;
 
 sub main
