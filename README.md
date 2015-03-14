@@ -11,12 +11,12 @@ Determine which package installed a file
 Print out package information for packages that own a given file.
 
 For each file on the command line this program will print out the
-package name and type of package.  It uses [Alien::Packages](http://search.cpan.org/perldoc?Alien::Packages) to
+package name and type of package.  It uses [Alien::Packages](https://metacpan.org/pod/Alien::Packages) to
 do this portably, so it should work, with various limitations, 
 portably on a wide variety of platforms (Debian, RedHat and Cygwin
 have been tested).
 
-If given a command, `which_package` will use [File::Which](http://search.cpan.org/perldoc?File::Which) to
+If given a command, `which_package` will use [File::Which](https://metacpan.org/pod/File::Which) to
 find the location of that command and use that to query the package
 manager for ownership.
 
