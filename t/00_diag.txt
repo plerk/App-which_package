@@ -1,8 +1,0 @@
-Alien::Packages
-Capture::Tiny
-ExtUtils::MakeMaker
-File::Temp
-File::Which
-Path::Class
-Test::More
-Text::Table
